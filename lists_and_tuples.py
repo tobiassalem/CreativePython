@@ -28,3 +28,7 @@ list1.remove("banana")
 # Tuple items are ordered, unchangeable, and allow duplicate values.
 thistle = ("apple", "banana", "cherry")
 print(thistle)
+
+x = [[4, 0, 1], [0, 0, 1], [0, 1, 2], [1, 1, 0], [2, 0, 0]]
+print(f"x length: {len(x)}")
+print(x[0][0])

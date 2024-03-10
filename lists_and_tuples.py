@@ -32,3 +32,10 @@ print(thistle)
 x = [[4, 0, 1], [0, 0, 1], [0, 1, 2], [1, 1, 0], [2, 0, 0]]
 print(f"x length: {len(x)}")
 print(x[0][0])
+
+# Dictionaries
+xDict = {"a": 1, "b": 2}
+yDict = {"b": 3, "c": 2}
+
+zDict = {**xDict, **yDict}
+print(f"zDictionary: {zDict}")
